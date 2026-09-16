@@ -32,27 +32,44 @@ Live: [Vercel](https://moekyawaung-portfolio-ultra.vercel.app) · [GitHub Pages]
 npm install
 npm run dev
 ```
-## Open the local URL (usually http://localhost:5173).
-Build
-npm run build
-npm run preview
-Deploy
-Vercel
+
+## Deploy
+
+### Vercel
+
+```bash
 npm i -g vercel
 vercel login
 vercel
 vercel --prod
-GitHub Pages
-Ensure vite.config.js has the correct base path:
+```
+
+### GitHub Pages
+
+Ensure `vite.config.js` has the correct `base` path:
+
+```js
 base: '/moekyawaung-portfolio-ultra/',
+```
+
 Then:
+
+```bash
 npm run deploy
-Enable GitHub Pages in repo Settings → Pages → source: gh-pages.
-Customization
-Update project data in src/ProjectGallery.jsx
-Edit contact links in src/App.jsx → Contact component
-Adjust colors in src/index.css via CSS variables (--accent, --accent-2, etc.)
-Author
-Moe Kyaw Aung
-Senior Android Developer | Full‑Stack Engineer
-GitHub: @Dev-moe-kyawaung
+```
+
+Enable GitHub Pages in repo Settings → Pages → source: `gh-pages`.
+
+## Customization
+
+- Update project data in `src/ProjectGallery.jsx`
+- Edit contact links in `src/App.jsx` → `Contact` component
+- Adjust colors in `src/index.css` via CSS variables (`--accent`, `--accent-2`, etc.)
+
+## Author
+
+**Moe Kyaw Aung**  
+Senior Android Developer | Full‑Stack Engineer  
+GitHub: [@Dev-moe-kyawaung](https://github.com/Dev-moe-kyawaung)
+
+---
