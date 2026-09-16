@@ -382,3 +382,11 @@ a {
     font-size: 0.8rem;
   }
 }
+@keyframes fractalShift {
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: 120px 80px, 90px 120px;
+  }
+}
